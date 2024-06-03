@@ -20,10 +20,10 @@ public class CodeSmellsExampleTest {
     }
 
     @Test
-    public void testHelperClassDoNothing() {
+    public void testHelperClassDuplicateMethod1() {
         CodeSmellsExample example = new CodeSmellsExample();
         CodeSmellsExample.Helper helper = example.new Helper();
-        helper.doNothing();
+        helper.duplicateMethod1();
         assertTrue(true);
     }
 
