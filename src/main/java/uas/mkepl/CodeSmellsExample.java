@@ -18,7 +18,7 @@ public class CodeSmellsExample {
         String userType = "admin";
         switch (userType) {
             case "admin":
-                System.out.println("Admin user");
+                System.out.println("User");
                 break;
             case "guest":
                 System.out.println("Guest user");

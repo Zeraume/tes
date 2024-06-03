@@ -86,7 +86,7 @@ public class CodeSmellsExampleTest {
 
     @Test
     public void testComments() {
-        int a = 42;
+        int a = 20;
         int b = 58;
         int sum = a + b;
         assertEquals(100, sum);
