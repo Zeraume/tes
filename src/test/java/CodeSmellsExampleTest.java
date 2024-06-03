@@ -20,14 +20,6 @@ public class CodeSmellsExampleTest {
     }
 
     @Test
-    public void testHelperClassDuplicateMethod1() {
-        CodeSmellsExample example = new CodeSmellsExample();
-        CodeSmellsExample.Helper helper = example.new Helper();
-        helper.duplicateMethod1();
-        assertTrue(true);
-    }
-
-    @Test
     public void testDataClass() {
         CodeSmellsExample example = new CodeSmellsExample();
         CodeSmellsExample.DataClass data = example.new DataClass();
