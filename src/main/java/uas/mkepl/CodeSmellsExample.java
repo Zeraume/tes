@@ -41,8 +41,21 @@ public class CodeSmellsExample {
     public class Helper {
         public String field;
 
-        public void doNothing() {
-            // This method does nothing
+        public void duplicateMethod1() {
+            int x = 10;
+            int y = 20;
+            int z = x + y;
+            System.out.println("Sum: " + z);
+
+            int a = 10;
+            int b = 20;
+            int c = a + b;
+            System.out.println("Sum: " + c);
+
+            int p = 10;
+            int q = 20;
+            int r = p + q;
+            System.out.println("Sum: " + r);
         }
     }
 
