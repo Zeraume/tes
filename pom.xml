@@ -16,7 +16,7 @@
     <repository>
       <id>github</id>
       <name>GitHub Packages</name>
-      <url>https://maven.pkg.github.com/Zeraume/MKEPL13_CD</url>
+      <url>https://maven.pkg.github.com/Zeraume/tes</url>
     </repository>
   </distributionManagement>
   
