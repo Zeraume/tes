@@ -8,7 +8,7 @@ public class CodeSmellsExampleTest {
     public void testLongMethod() {
         CodeSmellsExample example = new CodeSmellsExample();
         int result = example.longMethod();
-        assertEquals(141, result);
+        assertEquals(119, result);
     }
 
     @Test
@@ -39,13 +39,13 @@ public class CodeSmellsExampleTest {
 
     @Test
     public void testMagicNumbers() {
-        int a = 42;
+        int a = 20;
         int b = 58;
         int c = 17;
         int d = 24;
         int sum1 = a + b;
         int sum2 = c + d;
-        assertEquals(100, sum1);
+        assertEquals(78, sum1);
         assertEquals(41, sum2);
     }
 
@@ -74,22 +74,22 @@ public class CodeSmellsExampleTest {
 
     @Test
     public void testDuplicatedCode() {
-        int a = 42;
+        int a = 20;
         int b = 58;
         int c = 17;
         int d = 24;
         int sum1 = a + b;
         int sum2 = c + d;
-        assertEquals(100, sum1);
+        assertEquals(78, sum1);
         assertEquals(41, sum2);
     }
 
     @Test
     public void testComments() {
-        int a = 42;
+        int a = 20;
         int b = 58;
         int sum = a + b;
-        assertEquals(100, sum);
+        assertEquals(78, sum);
     }
 
     @Test
