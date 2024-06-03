@@ -55,7 +55,7 @@ public class CodeSmellsExampleTest {
         String result;
         switch (userType) {
             case "admin":
-                result = "";
+                result = "Admin user";
                 break;
             case "guest":
                 result = "Guest user";
@@ -86,7 +86,7 @@ public class CodeSmellsExampleTest {
 
     @Test
     public void testComments() {
-        int a = 20;
+        int a = 42;
         int b = 58;
         int sum = a + b;
         assertEquals(100, sum);
