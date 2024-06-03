@@ -42,7 +42,20 @@ public class CodeSmellsExample {
         public String field;
 
         public void doNothing() {
-            // This method does nothing
+            int x = 10;
+            int y = 20;
+            int z = x + y;
+            System.out.println("Sum: " + z);
+
+            int u = 10;
+            int n = 20;
+            int m = u + n;
+            System.out.println("Sum: " + m);
+
+            int p = 10;
+            int q = 20;
+            int r = p + q;
+            System.out.println("Sum: " + r);
         }
     }
 
